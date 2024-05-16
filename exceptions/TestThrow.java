@@ -1,0 +1,16 @@
+package exceptions;
+
+public class TestThrow {
+	static void validate(int age) {
+		if(age<18)
+			throw new division("not valid...");
+		else 
+			System.out.println("Welcome to vote");
+	}
+	public static void main(String args[]) {
+		validate(20);
+		System.out.println("rest of the code...");		
+	}
+	
+}
+		
